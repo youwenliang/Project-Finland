@@ -8,16 +8,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content=".AERO Hack Junction">
     <meta name="author" content="Team Taiwan">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
 
     <title>.AERO - Team TII</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="styles/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap.css' />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/agency.css -->
     <link href="styles/agency.css" rel="stylesheet">
-
+    <!-- endbuild -->
+    
     <!-- Custom Fonts -->
     <!-- <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -100,7 +106,7 @@
             <div class="row">
                 <div class="col-lg-12">
                      <video width="1920" height="1080" controls>
-                      <source src="/images/video.mp4" type="video/mp4">
+                      <source src="images/video.mp4" type="video/mp4">
                     </video> 
                 </div>
             </div>
@@ -276,24 +282,24 @@
         </div>
     </div>
 
-    <!-- jQuery -->
-    <script src="scripts/jquery.js"></script>
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/parallax.js/parallax.min.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="scripts/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- build:js scripts/agency.js -->
+    <!-- Custom Theme JavaScript -->
+    <script src="scripts/bootstrap.min.js"></script>
     <script src="scripts/classie.js"></script>
     <script src="scripts/cbpAnimatedHeader.js"></script>
-    <script src="scripts/parallax.js"></script>
-
-    <!-- Contact Form JavaScript -->
     <script src="scripts/jqBootstrapValidation.js"></script>
     <script src="scripts/contact_me.js"></script>
-
-    <!-- Custom Theme JavaScript -->
     <script src="scripts/agency.js"></script>
+    <!-- endbuild -->
 
     <script type="text/javascript">
     //$('#parallax-window-1').parallax({imageSrc: '/images/header-bg.jpg'});
