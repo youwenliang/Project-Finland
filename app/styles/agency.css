@@ -17,7 +17,7 @@ body {
     color: #80d4ee;
 }
 .icon-color {
-    color: #274961;
+    color: #2f5470;
 }
 
 p {
@@ -130,12 +130,14 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
-    padding: 20px 40px;
-    border-color: #80d4ee;
-    border-radius: 3px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /*border-color: #80d4ee;*/
+    border-radius: 5px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 700;
     color: #fff;
     background-color: #80d4ee;
@@ -146,7 +148,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #2F5570;
+    /*border-color: #2F5570;*/
     color: #fff;
     background-color: #5bb4de;
 }
