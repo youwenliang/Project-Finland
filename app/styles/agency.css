@@ -70,6 +70,7 @@ h6 {
 
 .img-centered {
     margin: 0 auto;
+    width: 70%;
 }
 
 .bg-light-gray {
@@ -285,13 +286,18 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-color: #80d4ee;
-    background-image: url(../images/header-bg.jpg);
+    /*background-image: url(../images/header-bg.jpg);*/
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
 }
 
 header .intro-text {
@@ -383,6 +389,14 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+.portfolio-link img{
+    /*width: 200px;
+    height: 200px;*/
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -403,14 +417,14 @@ a.portfolio-link:hover{
     color: #666;
 }
 
-.fa-10x{
+img{
     transition: transform 100ms ease-in-out;
     -moz-transition: transform 100ms ease-in-out;
     -webkit-transition: transform 100ms ease-in-out;
 }
 
-a.portfolio-link:hover .fa-10x{
-    transform: scale(1.1);
+a.portfolio-link:hover img{
+    transform: scale(1.2);
     transition: transform 100ms ease-in-out;
     -moz-transition: transform 100ms ease-in-out;
     -webkit-transition: transform 100ms ease-in-out;
@@ -688,7 +702,7 @@ a.portfolio-link:hover .fa-10x{
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
+    border: 7px solid #E9E5DC;
 }
 
 .team-member h4 {
