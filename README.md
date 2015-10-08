@@ -1,5 +1,7 @@
 # Project-Finland
 
-Run "sudo npm install"
-Run "bower install"
-Run "grunt server"
+Run ```sudo npm install```
+
+Run ```bower install```
+
+Run ```grunt server```
